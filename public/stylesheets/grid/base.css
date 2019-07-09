@@ -349,10 +349,10 @@ main {
 }
 
 .overlay__content {
-	font-size: 1rem;
-	font-family:  sans-serif;
+	font-size: .7rem;
+	font-family:  Roboto;
 	line-height: 1;
-	max-width: 25rem;
+	max-width: 40rem;
 	margin: 1rem 0 0 10vw;
 }
 
