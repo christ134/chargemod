@@ -20,5 +20,9 @@ router.get('/grid',(req,res)=>{
 router.get('/expo',(req,res)=>{
   res.render('expo', { title: 'Form'});
 });
+router.get('/join',(req,res)=>{
+  res.render('join', { title: 'Form'});
+});
+
 
 module.exports = router;

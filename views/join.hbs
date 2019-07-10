@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Chargemod</title>
+		<meta name="description" content="Natural Language Form with custom text input and drop-down lists" />
+		<meta name="keywords" content="Natural Language UI, sentence form, text input, contenteditable, html5, css3, jquery" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="stylesheets/join/default.css" />
+		<link rel="stylesheet" type="text/css" href="stylesheets/join/component.css" />
+		<script src="javascripts/join/modernizr.custom.js"></script>
+	</head>
+	<body class="nl-blurred">
+		<div class="container demo-1">
+			<!-- Top Navigation -->
+			
+			<header>
+				<div class="codrops-top clearfix">
+			<h2><a class="codrops-icon codrops-icon-prev" href="/subs"><span>Chargemod</span></a></h2>	
+				</div>
+				<h1>Get Charged <span>With Chargemod Custom Plans</span></h1>	
+			</header>
+			<div class="main clearfix">
+				<form id="nl-form" class="nl-form">
+					I would like to know more about 
+					<select>
+						<option value="1" selected>ABCC paradigms</option>
+						<option value="2">Vehicle To Grid project scopes</option>
+						<option value="3">Chargemod Community Charging paradigms</option>
+						<option value="4">Chargemod SUbscrition plans</option>
+						<option value="2"></option>
+					</select>
+					<br />via 
+					<select>
+						<option value="1" selected>Phone call</option>
+						<option value="2">Text message</option>
+						<option value="3">Email</option>
+						<option value="4">Popup notifications</option>
+						
+					</select>
+					between
+					<br /> 
+					<select>
+						<option value="1" selected>anytime</option>
+					 	<option value="1">7 p.m.</option>
+					 	<option value="2">8 p.m.</option>
+					 	<option value="3">9 p.m.</option>
+					</select><br>
+					Contact details<input type="text" value="" placeholder="enter your phone no" data-subline="For example: <em>add +91</em> + <em>10 digit no</em>"/>
+					<br>Mail id<input type="text" value="" placeholder="enter your mail id" data-subline="For example: <em>info@batterypowered.mobi</em> + <em>chris.mat360@protonmail.com</em>"/>
+					<div class="nl-submit-wrap">
+						<button class="nl-submit" type="submit">Get Notified</button>
+					</div>
+					<div class="nl-overlay"></div>
+				</form>
+			</div>
+		</div><!-- /container -->
+		<script src="javascripts/join/nlform.js"></script>
+		<script>
+			var nlform = new NLForm( document.getElementById( 'nl-form' ) );
+		</script>
+	</body>
+</html>
